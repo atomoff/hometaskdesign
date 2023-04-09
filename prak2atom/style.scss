@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 $font1: 'Roboto', sans-serif;
 $font2: 'Open Sans', sans-serif;
 $color1: #274C5B;
@@ -135,6 +136,10 @@ border-radius: 16px;
                 line-height: 23px;
                 color: #274C5B;
                 margin: 0 20px;
+                a{
+                    text-decoration: none;
+                    color: #274C5B;
+                }
             }
         }
         .h-right{
@@ -147,7 +152,12 @@ border-radius: 16px;
                 background: #FAFAFA;
                 border-radius: 36px;
                 display: flex;
-                flex-direction: row-reverse;
+                input{
+                    width: 100%;
+                    background: #d4d4d400;
+                    border: 0;
+                    border-radius: 100px;
+                }
                 .sicon{
                     img{
                         width: 56px;
@@ -159,13 +169,20 @@ border-radius: 16px;
                 border-radius: 33px; 
                 display: flex;
                 align-items: center;
-                padding: 5px 6px;   
+                padding: 5px 6px;
+                
                 .cicon{
                     img{
                         width: 56px;
                     }
                 }
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    display: inline-block;
+                } 
                 p{
+                      
                     margin: 0 12px;
 
                     font-family: 'Roboto';

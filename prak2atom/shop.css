@@ -1,0 +1,92 @@
+.shop-page {
+  background-image: url(./shopbackground.png);
+  width: 100%;
+  padding: 120px 0;
+  background-color: rgba(227, 241, 233, 0.4862745098);
+}
+
+.shop-product-grid {
+  width: 70%;
+  padding: 70px 0;
+  margin: auto;
+}
+.shop-product-grid .s4-bottom {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 40px 20px;
+}
+.shop-product-grid .s4-bottom .product-cart {
+  display: inline-block;
+  background: #F9F8F8;
+  border-radius: 30px;
+}
+.shop-product-grid .s4-bottom .product-cart .protitle {
+  padding: 29px 30px 13px;
+}
+.shop-product-grid .s4-bottom .product-cart .protitle p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px 6px;
+  gap: 10px;
+  width: 96px;
+  height: 31px;
+  background: #274C5B;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.shop-product-grid .s4-bottom .product-cart .proimage img {
+  width: 100%;
+}
+.shop-product-grid .s4-bottom .product-cart .prodesc {
+  padding: 0 30px 29px;
+}
+.shop-product-grid .s4-bottom .product-cart .prodesc .pd-top {
+  padding: 0 0 13px 0;
+  border-bottom: 1px solid #DEDDDD;
+  margin: 0 0 6px 0;
+}
+.shop-product-grid .s4-bottom .product-cart .prodesc .pd-top p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #274C5B;
+}
+.shop-product-grid .s4-bottom .product-cart .prodesc .pd-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shop-product-grid .s4-bottom .product-cart .prodesc .pd-bottom .pdbl {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: center;
+  color: #274C5B;
+}
+.shop-product-grid .s4-bottom .product-cart .prodesc .pd-bottom .pdbl span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #B8B8B8;
+  margin: 0 8px 0 0;
+}
+.shop-product-grid .s4-bottom .product-cart .prodesc .pdbr .pd-star i {
+  color: #FFA858;
+  font-size: 15px;
+}/*# sourceMappingURL=shop.css.map */
